@@ -1,7 +1,7 @@
 # Radiosonde_Troposphere
-Python codes for downloading radiosonde data from the University of Wyoming. The downloaded files will be saved in directories (e.g., RS11035/2024/07) as text files. To perform the download, the save_RS_wyoming.py function should be used.
+Python code for downloading radiosonde data from the University of Wyoming. The downloaded files will be saved in directories (e.g., RS11035/2024/07) as text files. To perform the download, the save_RS_wyoming.py function should be used.
 
-This also allows for the calculation of tropospheric parameters such as Precipitable Water Vapour (PWV), Wet Refractivity (Nw), Zenith Tropospheric Delay (ZTD), and Zenith Wet Delay (ZWD).
+This also allows for the calculation of tropospheric parameters: Precipitable Water Vapour (PWV), Wet Refractivity (Nw), Zenith Tropospheric Delay (ZTD), and Zenith Wet Delay (ZWD).
 There are two separate output files that will be created using RS_Tropospheric_data.py:
 
 * A text file for Nw for each station and hour.
