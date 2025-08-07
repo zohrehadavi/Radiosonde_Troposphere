@@ -13,7 +13,7 @@ import math
 
 def RS_Tropospheric_Parameters(start_year: int, end_year: int, start_month: int, end_month: int, station_id: str = "11035", hours: list = [0, 12], file_out: str = "RS_TRP.csv") -> None:
     # Calculating the Tropospheric Parameters from RS data
-    # Result in a CSV file.
+    # Result in the text and CSV files.
 
     #  Input parameters:
     # -----------------------------------------
@@ -201,3 +201,4 @@ if __name__ == "__main__":
     # Example: July 2024
     RS_Tropospheric_Parameters(2024, 2024, 7, 8)
     
+
